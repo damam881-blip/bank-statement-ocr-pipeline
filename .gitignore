@@ -1,0 +1,36 @@
+# =========================================================================
+# Python & Jupyter Notebook Temporaries
+# =========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================================================================
+# Project-Specific Raw PDFs (To protect privacy & avoid GitHub storage limits)
+# =========================================================================
+*.pdf
+# Exclusion: keep specific test assets if needed, but recommended to keep PDFs local
+
+# =========================================================================
+# Heavy Pipeline Output Directories (Dynamic files generated programmatically)
+# =========================================================================
+pdfimages_raw_output/
+otsu_experiment_output/
+ultimate_max_pages/
+pdf_high_res_pages/
+pure_stitched_output/
+reconstructed_output/
+
+# =========================================================================
+# System Specific Files
+# =========================================================================
+.DS_Store
+Thumbs.db

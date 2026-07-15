@@ -34,3 +34,6 @@ reconstructed_output/
 # =========================================================================
 .DS_Store
 Thumbs.db
+# Ignore all generated TIFF output images
+01_Page_Extraction/*.tiff
+*.tiff
